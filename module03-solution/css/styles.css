@@ -1,0 +1,116 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #6112ff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f66319;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 20px;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-toggle{
+  margin-top: 34px;
+}
+
+#nav-list {
+  background-color: white;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+  text-decoration:none;
+  background-color: #f66319;
+
+}
+
+.jumbotron {
+  background-color: crimson;
+  width: 100%;
+  border:3px solid white;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 2em;
+  text-shadow: 4px 4px 4px #222;
+}
+
+.row > div {
+  
+  padding: 15px;
+  margin-bottom: 10px;
+
+}
+
+div > span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid white;
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  opacity: .8;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#home-tiles {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.back {
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 4px;
+  text-shadow: 4px 4px 4px #222;
+}
+.back a:hover {
+  text-decoration: none;
+  color: black;
+}
+.inner {
+  background-color: rgba(113, 24, 24, 0.41);
+  border-radius: 6px;
+  border: 2px solid black;
+  padding: 10px;
+  position: relative;
+}
+
+.inner p {
+  padding-top: 60px;
+}
+
+#collapsable-nav p {
+  text-align: center;
+  color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+  padding-top: 20px;
+}
